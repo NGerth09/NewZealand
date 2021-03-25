@@ -7,7 +7,29 @@
 </head>
 <body style = "background-color: #0a81d2">
 <ul>
-    <li><img width="100%" src="graybox.png"></li>
+    <li><img width="100%" height="120" src="graybox.png"></li>
+    <li><input size="35" type="text" id="search"></li>
+    <li class="headerlink" id="yellow"><a href="##header1shortcut##">Header1</a> </li>
+    <li class="subheaderlink"><a href="##subheader1shortcut##">SubHeader1</a> </li>
+    <li class="subheaderlink"><a href="##subheader2shortcut##">SubHeader2</a> </li>
+
+    <li class="headerlink" id="purple"><a href="##header2shortcut##">Header1</a> </li>
+    <li class="subheaderlink"><a href="##subheader3shortcut##">SubHeader1</a> </li>
+    <li class="subheaderlink"><a href="##subheader4shortcut##">SubHeader2</a> </li>
+
+    <li class="headerlink"><a href="##header3shortcut##">Header1</a> </li>
+    <li class="subheaderlink"><a href="##subheader5shortcut##">SubHeader1</a> </li>
+    <li class="subheaderlink"><a href="##subheader6shortcut##">SubHeader2</a> </li>
 </ul>
+
+
+
+<script>
+    function checkInput() {
+        var query = document.getElementById('search').value;
+        window.find(query);
+        return true;
+    }
+</script>
 </body>
 </html>

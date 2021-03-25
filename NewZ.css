@@ -1,5 +1,35 @@
 ul {
     align-content: center;
-    padding: 2.5em;
     list-style-type: none;
+
+}
+li {
+    padding: 0.5em;
+    vertical-align: center;
+    margin: 0.4em;
+    overflow: hidden;
+    border-radius: 10px;
+}
+a {
+    color: #2F4F4F;
+    text-decoration: none;
+}
+#yellow {
+    background-color: #FFFF00;
+}
+#purple {
+    background-color: #C764f1s;
+}
+.headerlink {
+    background-color: #D3D3D3;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0.8em;
+    width: 70%;
+}
+.subheaderlink {
+    text-align: center;
+    background-color: #D3D3D3;
+    margin-left: 120px;
+    width: 60%;
 }
