@@ -14,6 +14,35 @@ a {
     color: #2F4F4F;
     text-decoration: none;
 }
+h1 {
+    background-color: red;
+    border-style: double;
+    border-color: greenyellow;
+    margin: 0.5em;
+    margin-right: 10em;
+    text-align: left;
+    border-radius: 10px;
+}
+h2 {
+    background-color: blue;
+    border-style: double;
+    border-color: greenyellow;
+    margin-left: 2em;
+    margin-right: 15em;
+    border-radius: 10px;
+
+}
+p {
+    background-color: gray;
+    border-style: double;
+    border-color: greenyellow;
+    margin-left: 4.5em;
+    margin-right: 20em;
+    border-radius: 10px;
+}
+body{
+    background-color: #e3dac9;
+}
 #yellow {
     background-color: #FFFF00;
 }
