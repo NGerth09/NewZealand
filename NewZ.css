@@ -52,6 +52,8 @@ body{
 #top_pic {
     align-content: center;
     image-orientation: 15deg;
+    width: 60%;
+    height: 12em;
 }
 #yellow {
     background-color: #FFFF00;
