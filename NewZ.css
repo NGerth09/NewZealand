@@ -29,6 +29,7 @@ h1 {
     padding-left: 1.2em;
 }
 h2 {
+    font-size: medium;
     background-color: #8989ef;
     border-style: double;
     border-color: #2b2b2b;
@@ -120,3 +121,11 @@ body{
     background-color: #38a;
 }
 
+.tb1 {
+    align-content: center;
+    background-color: #ffffff;
+}
+.tb2 .tb2-ndn6{background-color:#3166ff;color:#000000;text-align:left;vertical-align:top}
+.tb2 .tb2-lbnb{background-color:#c2d2ff;text-align:left;vertical-align:top}
+.tb2 .tb2-zfql{background-color:#c2d2ff;color:#000000;text-align:left;vertical-align:top}
+.tb2 .tb2-14gg{background-color:#ffffff;color:#000000;text-align:left;vertical-align:top}
